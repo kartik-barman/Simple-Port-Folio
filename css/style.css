@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url(../images/top-banner.png) no-repeat;
+    padding-top: 50px;
+}
+header {
+    
+    display: flex;
+    justify-content: space-between;
+}
+.sticky {
+    
+}
+.logo {
+    margin-left: 100px;
+}
+.logo span {
+    font-weight: 600;
+    font-size: 50px;
+}
+.menubar {
+    /* margin-right: 100px; */
+}
+.navList {
+    display: flex;
+}
+.navList li{
+    list-style: none;
+}
+.navList li a {
+    text-decoration: none;
+    margin: 15px;
+}
+#logIn {
+    border: 2px solid forestgreen;
+    padding: 6px 30px;
+    border-radius: 10px;
+}
+.container {
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: space-between;
+}
+.text {
+    flex-basis: 50%;
+    padding: 10%;
+}
+.text h1{
+    color: hotpink;
+    font-size: 54px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+.dream-text h1 {
+    color: hotpink;
+    font-size: 54px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+.text, .drea-text, h2, h4, p {
+    margin-bottom: 10px;
+}
+.btn {
+    width: 100px;
+    height: 25px;
+    color: #fff;
+    border: none;
+    background: coral;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn:hover {
+    border: 2px solid coral;
+    color: coral;
+    background: transparent;
+}
+.image {
+    flex-basis: 50%;
+    /* background: crimson; */
+}
+.image img{
+    width: 80%;
+}
+.dream-image img {
+    width: 100%;
+    margin-left: 100px;
+}
+.dream {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    background: url("../images/dream-bg.png") no-repeat right;
+}
+.dream-text {
+    flex-basis: 50%;
+    margin-top: 50px;
+    padding: 0 5%;
+}
+.experience-section {
+    display: flex;
+    margin: 50px 0;
+    padding-right: 50px;
+    background: url("../images/exp-bg.png") no-repeat left;
+}
+.card {
+    margin-left: 5%;
+    box-shadow: 10px 10px 40px grey;
+    height: 250px;
+    border-radius: 5px;
+    padding: 25px;
+    border-left: 7px solid blue;
+}
+.card h1 {
+    font-family: sans-serif;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.card h2 {
+    color: coral;
+    margin-bottom: 10px;
+}
+.title h1 {
+    text-align: center;
+    /* padding-top: 20px; */
+    font-size: 50px;
+    color: coral;
+}
+hr {
+    margin: 0 50px;
+    margin-bottom: 50px;
+}
+
+#full-stact {
+    border-left: 7px solid coral;
+}
